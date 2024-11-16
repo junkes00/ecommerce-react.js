@@ -12,9 +12,9 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div>
       <Product product={product} />
-    </>
+    </div>
   );
 }
 
