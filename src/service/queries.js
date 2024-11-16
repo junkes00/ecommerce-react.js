@@ -1,5 +1,5 @@
 export const productsApi = async () => {
-  const url = "https://fakestoreapi.com/products?limit=5";
+  const url = `${import.meta.env.VITE_BASE_URL}/products?limit=5`;
   try {
     const response = await fetch(url);
     if (!response.ok) {
